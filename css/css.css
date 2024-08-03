@@ -25,11 +25,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 20px;
 }
 
 header nav ul{
-    
     justify-content: center;
     align-items: center;
     padding: 20px;
