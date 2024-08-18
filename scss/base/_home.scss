@@ -4,16 +4,20 @@
 header {
     display: flex;
     justify-content: $contenido;
-    align-items: center;
+    align-items: $contenido;
     padding: 20px;
     nav {
         ul {
-            justify-content: center;
-            align-items: center;
+            justify-content: $contenido;
+            align-items: $contenido;
             padding: 20px;
-        }
-        li{
-            list-style: none;
+            li{
+                    list-style: $nada;
+            }
+                a{
+                    text-decoration: $nada;
+                    color: #EEEEEE;
+                }
         }
     }
 }
