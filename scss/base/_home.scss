@@ -16,7 +16,7 @@ header {
             }
                 a{
                     text-decoration: $nada;
-                    color: #EEEEEE;
+                    color: $color-texto;
                 }
         }
     }
@@ -26,3 +26,4 @@ header {
     width: 70px;
     height: 70px;
 }
+
