@@ -23,7 +23,6 @@ header {
 }
 
 .cabeza{
-    width: 70px;
-    height: 70px;
+    @include imagen-dimensionada(70px, 70px);
 }
 

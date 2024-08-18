@@ -1,6 +1,6 @@
 //mixing para img
 
-@mixin img{
-    width: 75px;
-    height: 75px;
-}
+@mixin imagen-dimensionada($width: 70px, $height: 70px) {
+    width: $width;
+    height: $height;
+  }
