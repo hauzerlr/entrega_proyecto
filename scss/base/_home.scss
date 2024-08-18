@@ -51,12 +51,24 @@ ul{
 
 // Footer
 
-footer ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 30px;
+footer { 
+    ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        p
+        {
+            display: flex;
+            justify-content: center;
+            color:$color-texto;
+            margin-top: 10px;
+            text-align: center;
+        }
 }
 
 
@@ -64,11 +76,28 @@ footer ul{
     @include imagen-dimensionada(70px, 70px);
 }
 
+.html-css{
+    justify-content: $contenido;
+    align-items: $contenido;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
 
-footer p{
-    display: flex;
-    justify-content: center;
-    color:$color-texto;
-    margin-top: 10px;
-    text-align: center;
+.coder-logo{
+    justify-content: $contenido;
+    align-items: $contenido;
+    width: 150px;
+}    
+
+@media screen and (min-width: 768px){
+
+    
+
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }   
 }

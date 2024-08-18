@@ -60,18 +60,40 @@ footer ul {
   gap: 30px;
   margin-top: 30px;
 }
-
-.rs {
-  width: 70px;
-  height: 70px;
-}
-
 footer p {
   display: flex;
   justify-content: center;
   color: #EEEEEE;
   margin-top: 10px;
   text-align: center;
+}
+
+.rs {
+  width: 70px;
+  height: 70px;
+}
+
+.html-css {
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+.coder-logo {
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=css.css.map */
