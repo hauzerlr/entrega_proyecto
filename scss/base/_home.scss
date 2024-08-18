@@ -1,0 +1,19 @@
+@import"../utilidades/variables";
+// estilos de header
+
+header {
+    display: flex;
+    justify-content: $contenido;
+    align-items: center;
+    padding: 20px;
+    nav {
+        ul {
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        li{
+            list-style: none;
+        }
+    }
+}
