@@ -26,3 +26,23 @@ header {
     @include imagen-dimensionada(70px, 70px);
 }
 
+/*main*/
+
+main{
+    color:$color-texto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    
+    h1{
+        @include margen-vertical;
+    }
+    p a b {
+            text-decoration: $nada;
+            color: $color-link;
+        }
+}
+
+ul{
+    list-style-type: $nada;
+}

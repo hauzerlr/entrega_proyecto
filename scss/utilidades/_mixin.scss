@@ -3,4 +3,9 @@
 @mixin imagen-dimensionada($width: 70px, $height: 70px) {
     width: $width;
     height: $height;
-  }
+}
+
+@mixin margen-vertical($mt: 10px, $mb: 10px) {
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
